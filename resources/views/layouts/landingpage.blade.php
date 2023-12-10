@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Dtox</title>
 
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,6 +30,8 @@
     <!--Favicon-->
     <link rel="shortcut icon" href="/images/head.png" type="image/x-icon">
     <link rel="icon" href="/images/head.png" type="image/x-icon">
+
+    <title>Serpihan | Seluruh Kebutuhan Bisnis Anda Ada di Genggaman Anda</title>
 
     @stack('head')
 </head>

@@ -19,7 +19,9 @@
         }
     </style>
     @stack('head')
-    <title>Document</title>
+    <title>Dashboard Sperihan</title>
+    <link rel="shortcut icon" href="/images/head.png" type="image/x-icon">
+    <link rel="icon" href="/images/head.png" type="image/x-icon">
 </head>
 
 <body class="flex">
