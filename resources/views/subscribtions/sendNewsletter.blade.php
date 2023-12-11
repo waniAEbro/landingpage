@@ -1,7 +1,6 @@
 @extends('layouts.dashboard')
 
 @section('content')
-    @dump($errors)
     <form action="/dashboard/subscribtions/send-newsletter" method="post" class="flex flex-col gap-8"
         enctype="multipart/form-data">
         @csrf
