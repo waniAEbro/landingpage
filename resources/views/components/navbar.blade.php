@@ -10,12 +10,24 @@
             <div class="collapse navbar-collapse text-center" id="navbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
+                        <a class="nav-link nav" href="/#home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Product
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-light" href="/sekolahin">Sekolahin</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="/blogs">Blogs</a>
                     </li>
                 </ul>
+                <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20mengetahui%20lebih%20lanjut%20tentang%20Serpihan%20Tech%20Solution.%20Bisakah%20Anda%20memberikan%20informasi%20lebih%20detail%20tentang%20perusahaan%2C%20produk%20atau%20layanan%20yang%20diberikan%20lebih%20lanjut%20%3F%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C
+                " target="_blank"
+                    class="btn btn-primary fw-bold">Contact Us</a>
             </div>
         </nav>
     </div>

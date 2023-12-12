@@ -22,6 +22,9 @@ Route::post("/login", [LoginController::class, "store"]);
 Route::get('/', function () {
     return view('landingpages.index');
 });
+Route::get("/sekolahin", function () {
+    return view('landingpages.sekolahin');
+});
 Route::get("/blogs", [BlogController::class, "index"]);
 Route::get("/blogs/{blog:slug}", [BlogController::class, "show"]);
 

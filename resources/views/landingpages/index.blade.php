@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- hero area -->
-    <section class="hero-section hero" data-background="" style="background-image: url(/images/hero-area/banner-bg.png);">
+    <section class="hero-section hero" id="home" data-background="" style="background-image: url(/images/hero-area/banner-bg.png);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center zindex-1">
@@ -10,7 +10,8 @@
                         Ada di Genggaman Anda</h1>
                     <p class="mb-4">Jangan biarkan sistem mengatur bisnis anda, biarkan bisnis yang mengatur sistem anda.
                         Rancang sistem informasi sesuai kebutuhan bisnis anda bersama kami</p>
-                    <a href="#" class="btn btn-secondary btn-lg">Contact Us</a>
+                    <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20mengetahui%20lebih%20lanjut%20tentang%20Serpihan%20Tech%20Solution.%20Bisakah%20Anda%20memberikan%20informasi%20lebih%20detail%20tentang%20perusahaan%2C%20produk%20atau%20layanan%20yang%20diberikan%20lebih%20lanjut%20%3F%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
+                        class="btn btn-secondary btn-lg" target="_blank">Contact Us</a>
                     <!-- banner image -->
                     <img class="img-fluid w-75 banner-image" src="/images/hero-area/banner-img.png" alt="banner-img">
                 </div>
@@ -167,7 +168,8 @@
                                     <li>Dukungan Maintenance Bug</li>
                                     <li>Server dan Domain Default</li>
                                 </ol>
-                                <a href="#" class="btn pricing-btn px-2">Get Started</a>
+                                <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Basic*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
+                                    class="btn pricing-btn px-2">Buy Now</a>
                             </div>
                         </div>
                         <!-- pricing table -->
@@ -180,7 +182,8 @@
                                     <li>Dukungan Request Fitur Dasar</li>
                                     <li>Domain Pilihan</li>
                                 </ol>
-                                <a href="#" class="btn pricing-btn px-2">Buy Now</a>
+                                <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Premium*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
+                                    class="btn pricing-btn px-2">Buy Now</a>
                             </div>
                         </div>
                         <!-- pricing table -->
@@ -193,19 +196,21 @@
                                     <li>Dukungan request dan pelatihan</li>
                                     <li>Server mandiri dan domain pilihan</li>
                                 </ol>
-                                <a href="#" class="btn pricing-btn px-2">Buy Now</a>
+                                <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Profesional*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
+                                    class="btn pricing-btn px-2">Buy Now</a>
                             </div>
                         </div>
                         <div class="col-md-6 mb-5 mb-lg-0">
                             <div class="rounded text-center pricing-table table-3">
-                                <h3>Profesional</h3>
+                                <h3>Prioritas</h3>
                                 <h1><span>Rp</span>50.000.000 <span>/bulan</span></h1>
                                 <ol>
                                     <li>Sesuai request client</li>
                                     <li>Dukungan maintenance prioritas</li>
                                     <li>Server mandiri dan domain pilihan</li>
                                 </ol>
-                                <a href="#" class="btn pricing-btn px-2">Buy Now</a>
+                                <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Prioritas*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
+                                    class="btn pricing-btn px-2">Buy Now</a>
                             </div>
                         </div>
                     </div>
