@@ -107,17 +107,21 @@
                 <div class="col-lg-12 mx-auto">
                     <div class="row justify-content-center">
                         <!-- pricing table -->
-                        <div class="col mb-5">
-                            <div class="rounded text-center pricing-table table-1 text-light">
+                        <div class="col-lg-4 mb-5">
+                            <div
+                                class="rounded text-center pricing-table table-1 text-light d-flex flex-column justify-content-between gap-3 h-100">
                                 <h3>Basic</h3>
+                                <small><s>1.090.000</s><span class="badge bg-light text-dark ms-2">Diskon
+                                        45%</span></small>
                                 <h1><span>Rp</span>600.000 <span>/bulan</span></h1>
-                                <ol class="fs-6">
+                                <ol class="fs-6 list-group">
                                     <li>paket standar</li>
                                     <li>Dukungan Maintenance Bug</li>
                                     <li>Server dan Domain Default</li>
                                 </ol>
-                                <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Basic*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
-                                    class="btn pricing-btn px-2 mb-3">Buy Now</a>
+                                <a target="_blank"
+                                    href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Basic*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
+                                    class="btn btn-light fw-bold px-2 mt-5">Buy Now</a>
                                 <div class="accordion" id="accordion-basic">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="heading-basic">
@@ -132,45 +136,70 @@
                                             <div class="accordion-body text-justify">
 
                                                 <h5 class="text-center my-4">Fitur Kesiswaan</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Unit, Kelas, Siswa,
-                                                    Distribusi Siswa ke Kelas dan Buku Induk Siswa (NIS)
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Unit, Kelas, Siswa
                                                 </p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>
+                                                    Distribusi Siswa ke Kelas
+                                                </p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Buku Induk Siswa (NIS)
+                                                </p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Konseling dan izin Keluar</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Kesehatan</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Pengumuman Telegram</p>
 
                                                 <h5 class="text-center my-4">Fitur Humas</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Buku Tamu</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Surat Masuk/Keluar</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Buku Tamu</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Surat Masuk/Keluar</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Buat Surat Resmi</p>
 
                                                 <h5 class="text-center my-4">Fitur Kepegawaian</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Jabatan Pegawai, List
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Jabatan dan daftar
                                                     Pegawai</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Presensi Pegawai</p>
 
                                                 <h5 class="text-center my-4">Fitur Akademik</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Setting tahun Ajaran /
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Setting tahun Ajaran /
                                                     Semester</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Pindah Kelas dan Kelulusan
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Pindah Kelas dan Kelulusan
                                                 </p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Mata Pelajaran</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Jam dan
+                                                    Jadwal Pelajaran</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Presensi Harian</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Jurnal
+                                                    Mengajar dan Alumni</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Penilaian</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Rapor, Transkrip dan SKL</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>SIlabus dan RPP</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Kalender Pendidikan</p>
 
                                                 <h5 class="text-center my-4">Fitur Keuangan</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Pembayaran SPP</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Penggajian : Setting Gaji
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Pembayaran SPP</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Gaji
                                                     dan Slip Gaji</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Bukti Transfer Wali Murid
-                                                    dan Tabungan Siswa (Kwitansi)</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Kas & Bank : Saldo Awal,
-                                                    Kas Masuk dan Keluar</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Setting Pembayaran : Akun
-                                                    biaya, POS dan Jenis Pembayaran</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Kwitansi Siswa dan wali murid</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Kas & Bank</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Pembayaran</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Perhitungan Pajak dan Unit
+                                                    POS</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Notif Telegram</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Notif Whatsapp</p>
+                                                <p><<i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Transfer dan
+                                                    Rekonsiliasi Bank</p>
+
+                                                <h5 class="text-center my-4">Fitur Pimpinan</h5>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Analisa dan Performa</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Statistik</p>
 
                                                 <h5 class="text-center my-4">Fitur Laporan</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Pembayaran :
-                                                    Berdasarkan kelas / tanggal, tagihan siswa dan rekap
-                                                    pembayaran</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Keuangan : Jurnal,
-                                                    Kas Tunai dan Kas Bank</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Laporan Pembayaran</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Laporan Keuangan</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Laporan Kesiswaan</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Laporan Akademik</p>
 
                                                 <h4 class="text-center my-4">Bonus</h4>
-                                                <p><i class="fa-solid fa-circle-question me-3"></i>Inventaris</p>
-                                                <p><i class="fa-solid fa-circle-question me-3"></i>Perpustakaan</p>
+                                                <p><i class="fa-solid fa-circle-question me-3 text-warning"></i>Inventaris</p>
+                                                <p><i class="fa-solid fa-circle-question me-3 text-warning"></i>Perpustakaan</p>
                                             </div>
                                         </div>
                                     </div>
@@ -178,79 +207,99 @@
                             </div>
                         </div>
                         <!-- pricing table -->
-                        <div class="col mb-5">
-                            <div class="rounded text-center pricing-table table-2">
+                        <div class="col-lg-4 mb-5">
+                            <div
+                                class="rounded text-center pricing-table table-2 d-flex flex-column justify-content-between gap-3 h-100">
                                 <h3>Premium</h3>
+                                <small><s>2.180.000</s><span class="badge bg-light text-dark ms-2">Diskon
+                                        45%</span></small>
                                 <h1><span>Rp</span>1.200.000 <span>/bulan</span></h1>
-                                <ol class="fs-6">
+                                <ol class="fs-6 list-group">
                                     <li>Terima Request Sistem Dasar</li>
                                     <li>Dukungan Request Fitur Dasar</li>
                                     <li>Domain Pilihan</li>
                                 </ol>
-                                <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Premium*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
-                                    class="btn pricing-btn px-2 mb-3">Buy Now</a>
-                                <div class="accordion" id="accordion-premium">
+                                <a target="_blank"
+                                    href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Premium*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
+                                    class="btn btn-light fw-bold px-2 mt-5">Buy Now</a>
+                                <div class="accordion" id="accordion-basic">
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header" id="heading-premium">
+                                        <h2 class="accordion-header" id="heading-basic">
                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#premium-collapse"
-                                                aria-expanded="false" aria-controls="premium-collapse">
+                                                data-bs-toggle="collapse" data-bs-target="#basic-collapse"
+                                                aria-expanded="false" aria-controls="basic-collapse">
                                                 Detail Fitur
                                             </button>
                                         </h2>
-                                        <div id="premium-collapse" class="accordion-collapse collapse"
-                                            aria-labelledby="heading-premium" data-bs-parent="#accordion-premium">
+                                        <div id="basic-collapse" class="accordion-collapse collapse"
+                                            aria-labelledby="heading-basic" data-bs-parent="#accordion-basic">
                                             <div class="accordion-body text-justify">
 
                                                 <h5 class="text-center my-4">Fitur Kesiswaan</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Unit, Kelas, Siswa,
-                                                    Distribusi Siswa ke Kelas dan Buku Induk Siswa (NIS)
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Unit, Kelas, Siswa
                                                 </p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Konseling, Izin Keluar</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>
+                                                    Distribusi Siswa ke Kelas
+                                                </p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Buku Induk Siswa (NIS)
+                                                </p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Konseling dan izin Keluar</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Kesehatan</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Pengumuman Telegram</p>
 
                                                 <h5 class="text-center my-4">Fitur Humas</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Buku Tamu</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Surat Masuk/Keluar</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Buku Tamu</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Surat Masuk/Keluar</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Buat Surat Resmi</p>
 
                                                 <h5 class="text-center my-4">Fitur Kepegawaian</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Jabatan Pegawai, List
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Jabatan dan daftar
                                                     Pegawai</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Presensi Pegawai</p>
 
                                                 <h5 class="text-center my-4">Fitur Akademik</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Setting tahun Ajaran /
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Setting tahun Ajaran /
                                                     Semester</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Pindah Kelas dan Kelulusan
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Pindah Kelas dan Kelulusan
                                                 </p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Mata Pelajaran, Jam dan
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Mata Pelajaran</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Jam dan
                                                     Jadwal Pelajaran</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Presensi Harian</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Jurnal
+                                                    Mengajar dan Alumni</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Penilaian</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Rapor, Transkrip dan SKL</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>SIlabus dan RPP</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Kalender Pendidikan</p>
 
                                                 <h5 class="text-center my-4">Fitur Keuangan</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Pembayaran SPP</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Penggajian : Setting Gaji
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Pembayaran SPP</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Gaji
                                                     dan Slip Gaji</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Bukti Transfer Wali Murid
-                                                    dan Tabungan Siswa (Kwitansi)</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Kas & Bank : Saldo Awal,
-                                                    Kas Masuk dan Keluar</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Setting Pembayaran : Akun
-                                                    biaya, POS dan Jenis Pembayaran</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Perhitungan Pajak dan Unit
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Kwitansi Siswa dan wali murid</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Kas & Bank</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Pembayaran</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Perhitungan Pajak dan Unit
                                                     POS</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Notif Telegram (Pembayaran,
-                                                    Gaji dan Tagihan)</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Notif Telegram</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Notif Whatsapp</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Transfer dan
+                                                    Rekonsiliasi Bank</p>
+
+                                                <h5 class="text-center my-4">Fitur Pimpinan</h5>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Analisa dan Performa</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Statistik</p>
 
                                                 <h5 class="text-center my-4">Fitur Laporan</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Pembayaran :
-                                                    Berdasarkan kelas / tanggal, tagihan siswa dan rekap
-                                                    pembayaran</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Keuangan : Jurnal,
-                                                    Kas Tunai dan Kas Bank</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Kesiswaan : Rekap
-                                                    Konseling, Izin Keluar</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Laporan Pembayaran</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Laporan Keuangan</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Laporan Kesiswaan</p>
+                                                <p><i class="fa-solid fa-circle-xmark me-3 text-danger"></i>Laporan Akademik</p>
 
                                                 <h4 class="text-center my-4">Bonus</h4>
-                                                <p><i class="fa-solid fa-circle-question me-3"></i>Inventaris</p>
-                                                <p><i class="fa-solid fa-circle-question me-3"></i>Perpustakaan</p>
+                                                <p><i class="fa-solid fa-circle-question me-3 text-warning"></i>Inventaris</p>
+                                                <p><i class="fa-solid fa-circle-question me-3 text-warning"></i>Perpustakaan</p>
                                             </div>
                                         </div>
                                     </div>
@@ -258,107 +307,99 @@
                             </div>
                         </div>
                         <!-- pricing table -->
-                        <div class="col mb-5">
-                            <div class="rounded text-center pricing-table table-3">
+                        <div class="col-lg-4 mb-5">
+                            <div
+                                class="rounded text-center pricing-table table-3 d-flex flex-column justify-content-between gap-3 h-100">
                                 <h3>Profesional</h3>
+                                <small><s>4.545.000</s><span class="badge bg-light text-dark ms-2">Diskon
+                                        45%</span></small>
                                 <h1><span>Rp</span>2.500.000 <span>/bulan</span></h1>
-                                <ol class="fs-6">
+                                <ol class="fs-6 list-group">
                                     <li>Request terpadu dan terstruktur</li>
                                     <li>Dukungan request dan pelatihan</li>
                                     <li>Server mandiri dan domain pilihan</li>
                                 </ol>
-                                <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Profesional*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
-                                    class="btn pricing-btn px-2 mb-3">Buy Now</a>
-                                <div class="accordion" id="accordion-profesional">
+                                <a target="_blank"
+                                    href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Profesional*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
+                                    class="btn btn-light fw-bold px-2 mt-5">Buy Now</a>
+                                <div class="accordion" id="accordion-basic">
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header" id="heading-professional">
+                                        <h2 class="accordion-header" id="heading-basic">
                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#professional-collapse"
-                                                aria-expanded="false" aria-controls="professional-collapse">
+                                                data-bs-toggle="collapse" data-bs-target="#basic-collapse"
+                                                aria-expanded="false" aria-controls="basic-collapse">
                                                 Detail Fitur
                                             </button>
                                         </h2>
-                                        <div id="professional-collapse" class="accordion-collapse collapse"
-                                            aria-labelledby="heading-professional"
-                                            data-bs-parent="#accordion-profesional">
+                                        <div id="basic-collapse" class="accordion-collapse collapse"
+                                            aria-labelledby="heading-basic" data-bs-parent="#accordion-basic">
                                             <div class="accordion-body text-justify">
 
                                                 <h5 class="text-center my-4">Fitur Kesiswaan</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Unit, Kelas, Siswa,
-                                                    Distribusi Siswa ke Kelas dan Buku Induk Siswa (NIS)
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Unit, Kelas, Siswa
                                                 </p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Konseling, Izin Keluar</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Kesehatan</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Pengumuman Telegram</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>
+                                                    Distribusi Siswa ke Kelas
+                                                </p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Buku Induk Siswa (NIS)
+                                                </p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Konseling dan izin Keluar</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Kesehatan</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Pengumuman Telegram</p>
 
                                                 <h5 class="text-center my-4">Fitur Humas</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Buku Tamu</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Konseling, Izin Keluar</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Surat Masuk/Keluar</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Buat Surat Resmi</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Buku Tamu</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Surat Masuk/Keluar</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Buat Surat Resmi</p>
 
                                                 <h5 class="text-center my-4">Fitur Kepegawaian</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Jabatan Pegawai, List
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Jabatan dan daftar
                                                     Pegawai</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Presensi Pegawai</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Presensi Pegawai</p>
 
                                                 <h5 class="text-center my-4">Fitur Akademik</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Setting tahun Ajaran /
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Setting tahun Ajaran /
                                                     Semester</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Pindah Kelas dan Kelulusan
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Pindah Kelas dan Kelulusan
                                                 </p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Mata Pelajaran, Jam dan
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Mata Pelajaran</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Jam dan
                                                     Jadwal Pelajaran</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Presensi Harian, Jurnal
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Presensi Harian</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Jurnal
                                                     Mengajar dan Alumni</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Penilaian Perilaku, Harian,
-                                                    Mid, Semester</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Rapor Mid Semester, Akhir
-                                                    Semester, Transkrip Nilai dan SKL</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>SIlabus, RPP</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Kalender Pendidikan</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Penilaian</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Rapor, Transkrip dan SKL</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>SIlabus dan RPP</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Kalender Pendidikan</p>
 
                                                 <h5 class="text-center my-4">Fitur Keuangan</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Pembayaran SPP</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Penggajian : Setting Gaji
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Pembayaran SPP</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Gaji
                                                     dan Slip Gaji</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Bukti Transfer Wali Murid
-                                                    dan Tabungan Siswa (Kwitansi)</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Kas & Bank : Saldo Awal,
-                                                    Kas Masuk dan Keluar</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Setting Pembayaran : Akun
-                                                    biaya, POS dan Jenis Pembayaran</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Perhitungan Pajak dan Unit
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Kwitansi Siswa dan wali murid</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Kas & Bank</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Pembayaran</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Perhitungan Pajak dan Unit
                                                     POS</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Notif Telegram (Pembayaran,
-                                                    Gaji dan Tagihan)</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Notif Whatsapp (Pembayaran,
-                                                    Gaji, dan Tagihan)</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Hutang: POS, Setting dan
-                                                    Bayar Hutang</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Transfer Bank dan
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Notif Telegram</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Notif Whatsapp</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Transfer dan
                                                     Rekonsiliasi Bank</p>
 
                                                 <h5 class="text-center my-4">Fitur Pimpinan</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Analisa dan Performa</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Statistik</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Analisa dan Performa</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Statistik</p>
 
                                                 <h5 class="text-center my-4">Fitur Laporan</h5>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Pembayaran :
-                                                    Berdasarkan kelas / tanggal, tagihan siswa dan rekap
-                                                    pembayaran</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Keuangan : Jurnal,
-                                                    Kas Tunai dan Kas Bank</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Kesiswaan : Rekap
-                                                    Konseling, Izin Keluar</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Akademik : Rekap
-                                                    Presensi Harian dan Rekap Presensi Pelajaran</p>
-                                                <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Neraca, Rugi Laba,
-                                                    Arus Kas dan Modal</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Laporan Pembayaran</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Laporan Keuangan</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Laporan Kesiswaan</p>
+                                                <p><i class="fa-solid fa-circle-check me-3 text-success"></i>Laporan Akademik</p>
 
                                                 <h4 class="text-center my-4">Bonus</h4>
-                                                <p><i class="fa-solid fa-circle-question me-3"></i>Inventaris</p>
-                                                <p><i class="fa-solid fa-circle-question me-3"></i>Perpustakaan</p>
+                                                <p><i class="fa-solid fa-circle-question me-3 text-warning"></i>Inventaris</p>
+                                                <p><i class="fa-solid fa-circle-question me-3 text-warning"></i>Perpustakaan</p>
                                             </div>
                                         </div>
                                     </div>
@@ -366,140 +407,14 @@
                             </div>
                         </div>
                         <div class="col mb-5">
-                            <div class="rounded text-center pricing-table table-3">
+                            <div class="rounded text-center pricing-table table-3 row gap-3">
                                 <h3>Prioritas</h3>
-                                <h1><span>Rp</span>50.000.000 <span>/bulan</span></h1>
-                                <ol class="fs-6">
-                                    <li>Sesuai request client</li>
-                                    <li>Dukungan maintenance prioritas</li>
-                                    <li>Server mandiri dan domain pilihan</li>
-                                </ol>
-                                <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Prioritas*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
-                                    class="btn pricing-btn px-2 mb-3">Buy Now</a>
-                                <div class="accordion" id="accordion-prioritas">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="heading-prioritas">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#prioritas-collapse"
-                                                aria-expanded="false" aria-controls="prioritas-collapse">
-                                                Detail Fitur
-                                            </button>
-                                        </h2>
-                                        <div id="prioritas-collapse" class="accordion-collapse collapse"
-                                            aria-labelledby="heading-prioritas" data-bs-parent="#accordion-prioritas">
-                                            <div class="accordion-body text-justify row">
-                                                <div class="col-md-4 p-4">
-                                                    <h5 class="text-center my-4">Fitur Kesiswaan</h5>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Unit, Kelas, Siswa,
-                                                        Distribusi Siswa ke Kelas dan Buku Induk Siswa (NIS)
-                                                    </p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Konseling, Izin Keluar
-                                                    </p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Kesehatan</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Pengumuman Telegram</p>
-                                                </div>
-
-                                                <div class="col-md-4 p-4">
-                                                    <h5 class="text-center my-4">Fitur Humas</h5>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Buku Tamu</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Konseling, Izin Keluar
-                                                    </p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Surat Masuk/Keluar</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Buat Surat Resmi</p>
-                                                </div>
-
-                                                <div class="col-md-4 p-4">
-                                                    <h5 class="text-center my-4">Fitur Kepegawaian</h5>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Jabatan Pegawai, List
-                                                        Pegawai</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Presensi Pegawai</p>
-                                                </div>
-
-                                                <div class="col-md-4 p-4">
-                                                    <h5 class="text-center my-4">Fitur Akademik</h5>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Setting tahun Ajaran /
-                                                        Semester</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Pindah Kelas dan
-                                                        Kelulusan
-                                                    </p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Mata Pelajaran, Jam dan
-                                                        Jadwal Pelajaran</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Presensi Harian, Jurnal
-                                                        Mengajar dan Alumni</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Penilaian Perilaku,
-                                                        Harian,
-                                                        Mid, Semester</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Rapor Mid Semester,
-                                                        Akhir
-                                                        Semester, Transkrip Nilai dan SKL</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>SIlabus, RPP</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Kalender Pendidikan</p>
-                                                </div>
-
-                                                <div class="col-md-4 p-4">
-                                                    <h5 class="text-center my-4">Fitur Keuangan</h5>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Pembayaran SPP</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Penggajian : Setting
-                                                        Gaji
-                                                        dan Slip Gaji</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Bukti Transfer Wali
-                                                        Murid
-                                                        dan Tabungan Siswa (Kwitansi)</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Kas & Bank : Saldo
-                                                        Awal,
-                                                        Kas Masuk dan Keluar</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Setting Pembayaran :
-                                                        Akun
-                                                        biaya, POS dan Jenis Pembayaran</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Perhitungan Pajak dan
-                                                        Unit
-                                                        POS</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Notif Telegram
-                                                        (Pembayaran,
-                                                        Gaji dan Tagihan)</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Notif Whatsapp
-                                                        (Pembayaran,
-                                                        Gaji, dan Tagihan)</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Hutang: POS, Setting
-                                                        dan
-                                                        Bayar Hutang</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Transfer Bank dan
-                                                        Rekonsiliasi Bank</p>
-                                                </div>
-
-                                                <div class="col-md-4 p-4">
-                                                    <h5 class="text-center my-4">Fitur Pimpinan</h5>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Analisa dan Performa
-                                                    </p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Statistik</p>
-
-                                                    <h5 class="text-center my-4">Fitur Laporan</h5>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Pembayaran :
-                                                        Berdasarkan kelas / tanggal, tagihan siswa dan rekap
-                                                        pembayaran</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Keuangan :
-                                                        Jurnal,
-                                                        Kas Tunai dan Kas Bank</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Kesiswaan :
-                                                        Rekap
-                                                        Konseling, Izin Keluar</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Akademik :
-                                                        Rekap
-                                                        Presensi Harian dan Rekap Presensi Pelajaran</p>
-                                                    <p><i class="fa-solid fa-circle-check me-3"></i>Laporan Neraca, Rugi
-                                                        Laba,
-                                                        Arus Kas dan Modal</p>
-                                                </div>
-
-                                                <div class="col p-4">
-                                                    <h4 class="text-center my-4">Bonus</h4>
-                                                    <p><i class="fa-solid fa-circle-question me-3"></i>Inventaris</p>
-                                                    <p><i class="fa-solid fa-circle-question me-3"></i>Perpustakaan</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <small><s>111.111.000</s><span class="badge bg-light text-dark ms-2">Diskon
+                                        45%</span></small>
+                                <h1><span>Rp</span>50.000.000<span>/bulan</span></h1>
+                                <a target="_blank"
+                                    href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Prioritas*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
+                                    class="btn btn-light mt-5 px-2 fw-bold">Hubungi Kami Lebih Lanjut</a>
                             </div>
                         </div>
                     </div>

@@ -25,6 +25,10 @@ Route::get('/', function () {
 Route::get("/sekolahin", function () {
     return view('landingpages.sekolahin');
 });
+Route::get("/about", function () {
+    return view('landingpages.about');
+});
+
 Route::get("/blogs", [BlogController::class, "index"]);
 Route::get("/blogs/{blog:slug}", [BlogController::class, "show"]);
 

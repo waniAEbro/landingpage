@@ -2,7 +2,8 @@
 
 @section('content')
     <!-- hero area -->
-    <section class="hero-section hero" id="home" data-background="" style="background-image: url(/images/hero-area/banner-bg.png);">
+    <section class="hero-section hero" id="home" data-background=""
+        style="background-image: url(/images/hero-area/banner-bg.png);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center zindex-1">
@@ -156,61 +157,67 @@
                     <p class="mb-50">Paket harga lengkap sesuai dengan kebutuhan anda
                     </p>
                 </div>
-                <div class="col-lg-10 mx-auto">
+                <div class="col-lg-12 mx-auto">
                     <div class="row justify-content-center">
                         <!-- pricing table -->
-                        <div class="col-md-6 mb-5 mb-lg-0">
-                            <div class="rounded text-center pricing-table table-1 text-light">
+                        <div class=" col-lg-4 mb-5">
+                            <div
+                                class="rounded text-center pricing-table table-1 text-light d-flex flex-column justify-content-between gap-3 h-100">
                                 <h3>Basic</h3>
-                                <h1><span>Rp</span>600.000 <span>/bulan</span></h1>
-                                <ol>
-                                    <li>paket standar</li>
-                                    <li>Dukungan Maintenance Bug</li>
+                                <small><s>1.090.000</s><span class="badge bg-light text-dark ms-2">Diskon 45%</span></small>
+                                <h1><span>Rp</span>600 k <span>/bulan</span></h1>
+                                <ol class="fs-6 list-group">
+                                    <li>Paket standar</li>
+                                    <li>Dukungan Maintenance</li>
                                     <li>Server dan Domain Default</li>
                                 </ol>
-                                <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Basic*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
-                                    class="btn pricing-btn px-2">Buy Now</a>
+                                <a target="_blank"
+                                    href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Basic*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
+                                    class="btn btn-light fw-bold px-2 mt-5">Buy Now</a>
                             </div>
                         </div>
                         <!-- pricing table -->
-                        <div class="col-md-6 mb-5 mb-lg-0">
-                            <div class="rounded text-center pricing-table table-2">
+                        <div class=" col-lg-4 mb-5">
+                            <div
+                                class="rounded text-center pricing-table table-2 text-light d-flex flex-column justify-content-between gap-3 h-100">
                                 <h3>Premium</h3>
-                                <h1><span>Rp</span>1.200.000 <span>/bulan</span></h1>
-                                <ol>
-                                    <li>Terima Request Sistem Dasar</li>
-                                    <li>Dukungan Request Fitur Dasar</li>
+                                <small><s>2.180.000</s><span class="badge bg-light text-dark ms-2">Diskon 45%</span></small>
+                                <h1><span>Rp</span>1.200 k <span>/bulan</span></h1>
+                                <ol class="fs-6 list-group">
+                                    <li>Request Sistem Dasar</li>
+                                    <li>Dukungan Fitur Dasar</li>
                                     <li>Domain Pilihan</li>
                                 </ol>
-                                <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Premium*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
-                                    class="btn pricing-btn px-2">Buy Now</a>
+                                <a target="_blank"
+                                    href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Premium*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
+                                    class="btn btn-light fw-bold px-2 mt-5">Buy Now</a>
                             </div>
                         </div>
                         <!-- pricing table -->
-                        <div class="col-md-6 mb-5 mb-lg-0">
-                            <div class="rounded text-center pricing-table table-3">
+                        <div class="col-lg-4 mb-5">
+                            <div
+                                class="rounded text-center pricing-table table-3 d-flex flex-column justify-content-between gap-3 h-100">
                                 <h3>Profesional</h3>
-                                <h1><span>Rp</span>2.500.000 <span>/bulan</span></h1>
-                                <ol>
-                                    <li>Request terpadu dan terstruktur</li>
-                                    <li>Dukungan request dan pelatihan</li>
-                                    <li>Server mandiri dan domain pilihan</li>
+                                <small><s>4.545.000</s><span class="badge bg-light text-dark ms-2">Diskon 45%</span></small>
+                                <h1><span>Rp</span>2.500 k <span>/bulan</span></h1>
+                                <ol class="fs-6 list-group">
+                                    <li>Request terstruktur</li>
+                                    <li>Dukungan pelatihan</li>
+                                    <li>Server dan domain pilihan</li>
                                 </ol>
-                                <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Profesional*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
-                                    class="btn pricing-btn px-2">Buy Now</a>
+                                <a target="_blank"
+                                    href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Profesional*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
+                                    class="btn btn-light fw-bold px-2 mt-5">Buy Now</a>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-5 mb-lg-0">
-                            <div class="rounded text-center pricing-table table-3">
+                        <div class="col mb-5 mb-lg-0">
+                            <div class="rounded text-center pricing-table table-3 row gap-3">
                                 <h3>Prioritas</h3>
-                                <h1><span>Rp</span>50.000.000 <span>/bulan</span></h1>
-                                <ol>
-                                    <li>Sesuai request client</li>
-                                    <li>Dukungan maintenance prioritas</li>
-                                    <li>Server mandiri dan domain pilihan</li>
-                                </ol>
-                                <a href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Prioritas*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
-                                    class="btn pricing-btn px-2">Buy Now</a>
+                                <small><s>111.111.000</s><span class="badge bg-light text-dark ms-2">Diskon
+                                        45%</span></small>
+                                <h1><span>Rp</span>50 juta <span>/bulan</span></h1>
+                                <a target="_blank" href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Prioritas*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
+                                    class="btn btn-light mt-5 px-2 fw-bold">Hubungi Kami Lebih Lanjut</a>
                             </div>
                         </div>
                     </div>
