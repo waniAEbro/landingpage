@@ -1,7 +1,7 @@
 <section class="fixed-top navigation">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="/"><img src="{{ Request::segment(1) == "sekolahin" ? "/images/sekolahin.png" : "/images/logo.png" }}" alt="logo" height="48"></a>
+            <a class="navbar-brand" href="/"><img src="/images/logo.png" alt="logo" height="48"></a>
             <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbar"
                 aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -11,18 +11,6 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link nav" href="/#home">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Product
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item fw-light" href="/sekolahin">Sekolahin</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="/blogs">Blogs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="/about">About</a>

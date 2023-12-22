@@ -22,15 +22,9 @@ Route::post("/login", [LoginController::class, "store"]);
 Route::get('/', function () {
     return view('landingpages.index');
 });
-Route::get("/sekolahin", function () {
-    return view('landingpages.sekolahin');
-});
 Route::get("/about", function () {
     return view('landingpages.about');
 });
-
-Route::get("/blogs", [BlogController::class, "index"]);
-Route::get("/blogs/{blog:slug}", [BlogController::class, "show"]);
 
 Route::middleware("auth")->group(function () {
     Route::get("/dashboard", function () {
