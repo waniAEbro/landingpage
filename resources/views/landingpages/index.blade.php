@@ -139,7 +139,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center">
-                    ini adalah gambar
+                    <img class="img-fluid" src="/images/sekolah.png" alt="bg-shape">
                 </div>
             </div>
         </div>
