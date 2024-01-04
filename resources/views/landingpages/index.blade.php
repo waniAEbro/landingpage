@@ -384,9 +384,9 @@
                             <div
                                 class="rounded text-center pricing-table table-1 text-light d-flex flex-column justify-content-between gap-3 h-100">
                                 <h3>Basic</h3>
-                                <small><s>1.090.000</s><span class="badge bg-light text-dark ms-2">Diskon
+                                {{-- <small><s>1.090.000</s><span class="badge bg-light text-dark ms-2">Diskon
                                         45%</span></small>
-                                <h1><span>Rp</span>600 k <span>/bulan</span></h1>
+                                <h1><span>Rp</span>600 k <span>/bulan</span></h1> --}}
                                 <ol class="fs-6 list-group">
                                     <li>Paket standar</li>
                                     <li>Dukungan Maintenance</li>
@@ -514,9 +514,9 @@
                             <div
                                 class="rounded text-center pricing-table table-2 text-light d-flex flex-column justify-content-between gap-3 h-100">
                                 <h3>Premium</h3>
-                                <small><s>2.180.000</s><span class="badge bg-light text-dark ms-2">Diskon
+                                {{-- <small><s>2.180.000</s><span class="badge bg-light text-dark ms-2">Diskon
                                         45%</span></small>
-                                <h1><span>Rp</span>1.200 k <span>/bulan</span></h1>
+                                <h1><span>Rp</span>1.200 k <span>/bulan</span></h1> --}}
                                 <ol class="fs-6 list-group">
                                     <li>Request Sistem Dasar</li>
                                     <li>Dukungan Fitur Dasar</li>
@@ -642,9 +642,9 @@
                             <div
                                 class="rounded text-center pricing-table table-3 d-flex flex-column justify-content-between gap-3 h-100">
                                 <h3>Profesional</h3>
-                                <small><s>4.545.000</s><span class="badge bg-light text-dark ms-2">Diskon
+                                {{-- <small><s>4.545.000</s><span class="badge bg-light text-dark ms-2">Diskon
                                         45%</span></small>
-                                <h1><span>Rp</span>2.500 k <span>/bulan</span></h1>
+                                <h1><span>Rp</span>2.500 k <span>/bulan</span></h1> --}}
                                 <ol class="fs-6 list-group">
                                     <li>Request terstruktur</li>
                                     <li>Dukungan pelatihan</li>
@@ -768,9 +768,9 @@
                         <div class="col mb-5 mb-lg-0">
                             <div class="rounded text-center pricing-table table-3 row gap-3">
                                 <h3>Prioritas</h3>
-                                <small><s>111.111.000</s><span class="badge bg-light text-dark ms-2">Diskon
+                                {{-- <small><s>111.111.000</s><span class="badge bg-light text-dark ms-2">Diskon
                                         45%</span></small>
-                                <h1><span>Rp</span>50 juta <span>/bulan</span></h1>
+                                <h1><span>Rp</span>50 juta <span>/bulan</span></h1> --}}
                                 <a target="_blank"
                                     href="https://wa.me/6285728334774?text=Halo%20Serpihan%20Tech%20Solution%2C%0A%0ASaya%20tertarik%20untuk%20membeli%20produk%20*Prioritas*%20sekolahin%2C%20mohon%20untuk%20bisa%20diproses%20lebih%20lanjut%0A%0ATerima%20kasih.%0A%0ASalam%20hangat%2C"
                                     class="btn btn-light mt-5 px-2 fw-bold">Hubungi Kami Lebih Lanjut</a>
